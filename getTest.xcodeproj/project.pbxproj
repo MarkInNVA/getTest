@@ -14,6 +14,8 @@
 		3ACA71BB214BFECC00AC4600 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ACA71B9214BFECC00AC4600 /* LaunchScreen.storyboard */; };
 		3ACA71C6214BFECC00AC4600 /* getTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACA71C5214BFECC00AC4600 /* getTestTests.swift */; };
 		3ACA71D1214BFECC00AC4600 /* getTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACA71D0214BFECC00AC4600 /* getTestUITests.swift */; };
+		3ACA71E0214C103B00AC4600 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACA71DF214C103B00AC4600 /* Card.swift */; };
+		3ACA71E2214C117500AC4600 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACA71E1214C117500AC4600 /* Concentration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3ACA71CC214BFECC00AC4600 /* getTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = getTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ACA71D0214BFECC00AC4600 /* getTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getTestUITests.swift; sourceTree = "<group>"; };
 		3ACA71D2214BFECC00AC4600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ACA71DF214C103B00AC4600 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		3ACA71E1214C117500AC4600 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +103,10 @@
 			children = (
 				3ACA71B2214BFECB00AC4600 /* ViewController.swift */,
 				3ACA71B4214BFECB00AC4600 /* Main.storyboard */,
+				3ACA71DF214C103B00AC4600 /* Card.swift */,
 				3ACA71DE214C055000AC4600 /* Support files */,
 				3ACA71BC214BFECC00AC4600 /* Info.plist */,
+				3ACA71E1214C117500AC4600 /* Concentration.swift */,
 			);
 			path = getTest;
 			sourceTree = "<group>";
@@ -265,6 +271,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3ACA71B3214BFECB00AC4600 /* ViewController.swift in Sources */,
+				3ACA71E2214C117500AC4600 /* Concentration.swift in Sources */,
+				3ACA71E0214C103B00AC4600 /* Card.swift in Sources */,
 				3ACA71B1214BFECB00AC4600 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
