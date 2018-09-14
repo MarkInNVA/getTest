@@ -97,11 +97,9 @@
 		3ACA71AF214BFECB00AC4600 /* getTest */ = {
 			isa = PBXGroup;
 			children = (
-				3ACA71B0214BFECB00AC4600 /* AppDelegate.swift */,
 				3ACA71B2214BFECB00AC4600 /* ViewController.swift */,
 				3ACA71B4214BFECB00AC4600 /* Main.storyboard */,
-				3ACA71B7214BFECC00AC4600 /* Assets.xcassets */,
-				3ACA71B9214BFECC00AC4600 /* LaunchScreen.storyboard */,
+				3ACA71DE214C055000AC4600 /* Support files */,
 				3ACA71BC214BFECC00AC4600 /* Info.plist */,
 			);
 			path = getTest;
@@ -123,6 +121,16 @@
 				3ACA71D2214BFECC00AC4600 /* Info.plist */,
 			);
 			path = getTestUITests;
+			sourceTree = "<group>";
+		};
+		3ACA71DE214C055000AC4600 /* Support files */ = {
+			isa = PBXGroup;
+			children = (
+				3ACA71B0214BFECB00AC4600 /* AppDelegate.swift */,
+				3ACA71B7214BFECC00AC4600 /* Assets.xcassets */,
+				3ACA71B9214BFECC00AC4600 /* LaunchScreen.storyboard */,
+			);
+			path = "Support files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
